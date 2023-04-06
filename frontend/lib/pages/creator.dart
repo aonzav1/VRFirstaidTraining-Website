@@ -110,8 +110,10 @@ class _CreatePageState extends State<CreatePage> {
   scenarioCreate() async {
     var thumbnailLink = "";
     try {
-      final response = await apiProvider.uploadWebImage(webImage);
-      thumbnailLink = jsonDecode(response.body)["filename"];
+      if(_file.path !=  "zz"){
+        final response = await apiProvider.uploadWebImage(webImage);
+        thumbnailLink = jsonDecode(response.body)["filename"];
+      }
     } catch (err) {
       print(err);
     }
