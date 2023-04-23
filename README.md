@@ -7,5 +7,4 @@ This repository includes frontend, backend and database of VR Firstaid training 
 2. Backend (NodeJS source code file)
 3. Database (SQL file)
  
- VR Application file is not included here
- Link may be provided in this repository in the future
+ VR Application file : https://cloudbox.ku.ac.th/index.php/s/FqpQrmJqA8Smt3d
